@@ -1,6 +1,8 @@
 # React Native Test Plan
 
-An experimental way to verify changes to React Native.
+An experimental way to verify changes to React Native. This project provides a test app that is directly linked to the react-native and react-native-cli projects. This lets you make changes to React Native and see the results immediately.
+
+**Disclaimer: This has only been tested on Android**
 
 ### Setting things up
 
@@ -37,6 +39,8 @@ yarn install
 ```
 
 ### Setup React Native
+
+This is pretty involved. Please help if you know of a way to make this simpler.
 
 1. [Install Buck](https://buckbuild.com/setup/getting_started.html)
 2. Open React Native in Android Studio
