@@ -74,6 +74,4 @@ yarn start
 
 ```
 yarn run-android
-# or
-yarn run-ios
 ```
