@@ -1,6 +1,6 @@
-[submodule "react-native-cli"]
-	path = react-native-cli
-	url = https://github.com/react-native-community/react-native-cli
 [submodule "react-native"]
 	path = react-native
 	url = https://github.com/facebook/react-native
+[submodule "@react-native-cli"]
+	path = @react-native-cli
+	url = https://github.com/react-native-community/react-native-cli

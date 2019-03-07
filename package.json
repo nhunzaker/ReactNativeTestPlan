@@ -3,7 +3,11 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "start": "node node_modules/@react-native-community/cli start",
+    "build-react-native": "cd react-native; ./gradlew :ReactAndroid:assemble :ReactAndroid:installArchives",
+    "run-android": "node node_modules/@react-native-community/cli run-android",
+    "run-ios": "node node_modules/@react-native-community/cli run-ios",
+    "postinstall": "cd @react-native-cli; yarn; yarn build",
     "test": "jest"
   },
   "dependencies": {
@@ -21,6 +25,6 @@
   },
   "workspaces": [
     "react-native",
-    "react-native-cli/packages/cli"
+    "@react-native-cli/packages/cli"
   ]
 }

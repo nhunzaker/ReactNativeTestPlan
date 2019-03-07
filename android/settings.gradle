@@ -5,4 +5,4 @@ include ':app'
 include ':ReactAndroid'
 
 project(':ReactAndroid').projectDir = new File(
-    rootProject.projectDir, '../react-native/ReactAndroid')
+        rootProject.projectDir, '../react-native/ReactAndroid')
